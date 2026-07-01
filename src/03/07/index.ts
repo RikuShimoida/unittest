@@ -1,7 +1,8 @@
 export function wait(duration: number) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(duration);
+      const str = 'Hello, World!';
+      resolve(str);
     }, duration);
   });
 }

@@ -2,9 +2,9 @@ import { timeout, wait } from ".";
 
 describe("非同期処理", () => {
   describe("wait", () => {
-    test("指定時間待つと、経過時間をもって resolve される", () => {
-      return wait(50).then((duration) => {
-        expect(duration).toBe(50);
+    test("指定時間待つと、経過時間をもって Hello, World!  される", () => {
+      return wait(500).then((resolveValue) => {
+        expect(resolveValue).toBe('Hello, World!');
       });
     });
     test("指定時間待つと、経過時間をもって resolve される", () => {
