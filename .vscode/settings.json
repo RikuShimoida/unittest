@@ -1,3 +1,49 @@
 {
-    "workbench.colorTheme": "Quiet Light"
+    "workbench.colorTheme": "Quiet Light",
+
+    // ホバーで出る型情報などのポップアップを無効化
+    "editor.hover.enabled": "off",
+
+    // 関数の引数ヒント（パラメータヒント）を無効化
+    "editor.parameterHints.enabled": false,
+
+    // 自動補完（サジェスト）を無効化
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.tabCompletion": "off",
+
+    // コード行の上に出る参照数などの表示（CodeLens）を無効化
+    "editor.codeLens": false,
+
+    // 変数や引数名などのインラインヒントを無効化
+    "editor.inlayHints.enabled": "off",
+
+    // 電球アイコン（クイックフィックスの提案）を無効化
+    "editor.lightbulb.enabled": "off",
+
+    // 保存時の自動整形を無効化
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+
+    // TypeScript / JavaScript の補完・提案を無効化
+    "typescript.suggest.enabled": false,
+    "javascript.suggest.enabled": false,
+    "typescript.suggestionActions.enabled": false,
+    "javascript.suggestionActions.enabled": false,
+
+    // TypeScript のインラインヒント類を無効化
+    "typescript.inlayHints.parameterNames.enabled": "none",
+    "typescript.inlayHints.parameterTypes.enabled": false,
+    "typescript.inlayHints.variableTypes.enabled": false,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": false,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+    "typescript.inlayHints.enumMemberValues.enabled": false
 }
